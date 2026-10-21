@@ -17,4 +17,3 @@ Sites에서 배포한 주소를 학생들과 공유하세요. 이름과 멘트�
 Node 22.13 이상. 의존성 설치 후 `pnpm dev`, `pnpm build`를 사용합니다. Sites 스킬에 따라 빌드·소스 동기화·게시합니다. `.openai/hosting.json`의 `DB` 바인딩으로 영구 저장소를 연결하며, Drizzle 마이그레이션은 배포 시 적용됩니다.
 
 `GET /api/entries` 목록, `POST` 등록, `PATCH` 수정, `DELETE` 삭제. 수정 요청에는 브라우저 토큰을 `X-Album-Owner` 헤더로 보냅니다. 이름 중복과 26명 제한은 서버에서도 확인합니다.
-
